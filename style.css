@@ -6,7 +6,13 @@ justify-content:center;
 height:100vh;
 font-family:Arial;
 }
+.white{
+background:white;
+}
 
+.black{
+background:black;
+}
 .board{
 display:grid;
 grid-template-columns:repeat(8,60px);
@@ -15,4 +21,5 @@ grid-template-columns:repeat(8,60px);
 .square{
 width:60px;
 height:60px;
+
 }
